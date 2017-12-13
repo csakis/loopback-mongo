@@ -6,16 +6,13 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "task": {
       "type": "string",
       "required": true
     },
-    "done": {
+    "complete": {
       "type": "boolean",
       "default": false
-    },
-    "userId": {
-      "type": "string"
     }
   },
   "validations": [],

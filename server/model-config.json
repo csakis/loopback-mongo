@@ -14,29 +14,29 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "aws_mongo"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "aws_mongo",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "aws_mongo",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "aws_mongo",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "aws_mongo",
     "public": false
   },
   "ToDo": {
-    "dataSource": "db",
+    "dataSource": "aws_mongo",
     "public": true
   }
 }
